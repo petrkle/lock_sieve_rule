@@ -1,0 +1,4 @@
+<?php
+
+$config['lock_rule_name'] = 'Filtrování SPAMu';
+$config['lock_rule_info'] = 'Pravidlo pro filtrování SPAMu nemažte, neměňte a nechte první v pořadí!';
