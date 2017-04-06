@@ -6,7 +6,7 @@ $(document).ready(function() {
 	$(document).on("click", "#filtermenulink", function() {
 		$('.name').each(function() {
 			    if($(this).text() == window.rcmail.env.lock_rule_name){
-						if($(this).parent().attr('class') == 'selected focused'){
+						if($(this).parent().attr('class') == 'selected focused' || $(this).parent().attr('class') == 'filtermoveup selected focused'){
 							window.location.reload();
 						}
 					}
